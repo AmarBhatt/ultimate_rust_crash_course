@@ -1,0 +1,35 @@
+Rust Cheat Sheet
+
+************************************
+************** INSTALL *************
+************************************
+
+************************************
+************** CREATE **************
+************************************
+
+# Create Project
+cargo new <project_name>
+
+# Run in Debug Mode (will compile and run)
+cargo run 
+Note: Must be in project directory
+
+# Run in Release Mode (will compile and run)
+cargo run --release
+Note: Must be in project directory
+
+# Help
+cargo help
+
+# Pass in arguments
+cargo run -- <whatever arguments your code takes>
+
+************************************
+*********** VARIABLES **************
+************************************
+
+let x = 0 // Immutable variable without type declaration, cannot change
+let x: i32 = 0 // Immutable variable with type declaration, cannot change
+let mut x = 0 // Mutable variable, can change
+const X: f64 = 9.9 // Constant variable, must declare type, can be used as a global and are really fast
