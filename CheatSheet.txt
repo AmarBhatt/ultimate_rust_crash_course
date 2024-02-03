@@ -30,6 +30,9 @@ cargo run -- <whatever arguments your code takes>
 ************************************
 cargo fmt // formats your code, you can configure your IDE to do this automatically on save
 cargo clippy // rust style guide check
+cargo doc // create documentation
+cargo doc --no-deps --open // only create documentation for your code (excluding external libraries)
+cargo doc --no-deps --document-private-items --open // this will also document private members
 
 ************************************
 *********** VARIABLES **************
