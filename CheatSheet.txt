@@ -25,6 +25,12 @@ cargo help
 # Pass in arguments
 cargo run -- <whatever arguments your code takes>
 
+# Test
+cargo test
+
+# Benchmark
+cargo bench
+
 ************************************
 ************** TOOLS ***************
 ************************************
